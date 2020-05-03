@@ -11,9 +11,6 @@ windows = False
 
 # check if windows:
 if os.name == 'nt':
-	windows == True
-
-if windows == True:
 	dirCheck = pwd + "\\"
 
 	if (copyDir == rootDir or rootDir == dirCheck):
