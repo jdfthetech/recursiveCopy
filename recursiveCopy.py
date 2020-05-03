@@ -21,7 +21,7 @@ if windows == True:
 	else:
 		for subdir, dirs, files in os.walk(rootDir):
 			for f in files:
-				copyfile(subdir + "\\" + f, copyDir + f)
+				copyfile(subdir + "\\" + f, copyDir + "\\" + f)
 				print("copied " + f)				
 else:				
 	dirCheck = pwd + "/"
